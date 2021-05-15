@@ -28,7 +28,7 @@ int main(int argc, const char **argv)
     if (argc > 2)
         out_file = argv[2];
 
-    const float softness = 32.f;
+    const float softness = 128.f;
     const float sqr_softness = softness * softness;
 
     int x, y, n;
